@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuMeal"
+        android:title="ごはん"
+        android:icon="@drawable/menu_meal"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/itemMeat"
+                android:title="にく" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menuPlay"
+        android:title="あそぶ"
+        android:icon="@drawable/menu_play"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/itemRun"
+                android:title="はしる" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menuGoingOut"
+        android:icon="@drawable/menu_going_out"
+        app:showAsAction="always"
+        android:title="おでかけ">
+        <menu>
+            <item
+                android:id="@+id/itemNagoya"
+                android:title="なごや" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menuToilet"
+        android:icon="@drawable/menu_toilet"
+        android:title="といれ"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/itemToilet"
+                android:title="といれ" />
+        </menu>
+    </item>
+</menu>
