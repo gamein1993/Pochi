@@ -20,16 +20,17 @@ public class Monster {
     protected int rightImage = R.drawable.dog_1;
     protected int leftImage = R.drawable.dog_2;
 
+    private String name;
     /** ステータス */
     private int image;
     private static final int TIME_TO_EVOLUTION = 600;
     private int evolution;
-    private static final int TIME_TO_DIE = 3600;
+    private static final int TIME_TO_DIE = 1500;
     private int damage;
     private static final int FULL_STOMACH = 120;
     private int hungry;
     private boolean isHungry;
-    private static final int STRESS_FULL = 240;
+    private static final int STRESS_FULL = 150;
     private int stress;
     private boolean isStressful;
 
@@ -46,6 +47,13 @@ public class Monster {
         this.isHungry = true;
         this.isStopped = false;
         this.isStressful = false;
+    }
+
+    public void setName(CharSequence name) {
+        this.name = name.toString();
+    }
+    public String getName() {
+        return this.name;
     }
 
     public int getImage() {
@@ -101,7 +109,7 @@ public class Monster {
             hungry = 0;
             damage += 2;
             if (!isHungry) {
-                call(context, "default", "お腹が空きました！", "わんっ");
+                call(context, "default", name, "お腹が空いたわんっ！");
             }
             isHungry = true;
         }
@@ -112,7 +120,7 @@ public class Monster {
         if (stress >= STRESS_FULL) {
             damage += 2;
             if (!isStressful) {
-                call(context, "default", "あそんでほしい！", "わんっ");
+                call(context, "default", name, "あそんでほしいわんっ！");
             }
             isStressful = true;
         }
