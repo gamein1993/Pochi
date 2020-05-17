@@ -38,7 +38,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    
+
     private class REQUEST_CODE {
         private static final int PLAY_RUN = 1000;
     }
@@ -327,7 +327,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                                         public void onClick(DialogInterface dialog, int which) {
                                             sp.remove(KiSpKey.MONSTER2);
                                             sp.apply();
-                                            if (0 == KiUtil.getRandom(1)) {
+                                            if (0 == KiUtil.getRandom(5)) {
                                                 KiDialogFragment dialogFragment2 = new KiDialogFragment("？", "おや？", null, null, new DialogInterface.OnDismissListener() {
                                                     @Override
                                                     public void onDismiss(DialogInterface dialog) {
