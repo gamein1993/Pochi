@@ -1,4 +1,4 @@
-package com.kiprogram.kigame.flagment;
+package com.will.pochi.flagment;
 
 import android.app.Activity;
 import android.app.AlertDialog;

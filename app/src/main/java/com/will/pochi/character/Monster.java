@@ -1,4 +1,4 @@
-package com.kiprogram.kigame.character;
+package com.will.pochi.character;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -9,9 +9,9 @@ import android.graphics.Color;
 import android.media.RingtoneManager;
 import android.widget.ImageView;
 
-import com.kiprogram.kigame.R;
-import com.kiprogram.kigame.item.Meal;
-import com.kiprogram.kigame.item.Play;
+import com.will.pochi.R;
+import com.will.pochi.item.Meal;
+import com.will.pochi.item.Play;
 
 public class Monster {
 

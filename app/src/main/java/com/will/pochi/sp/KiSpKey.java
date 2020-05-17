@@ -1,4 +1,4 @@
-package com.kiprogram.kigame.sp;
+package com.will.pochi.sp;
 
 public enum KiSpKey {
     EGG("egg"),

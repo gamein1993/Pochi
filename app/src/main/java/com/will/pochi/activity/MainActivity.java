@@ -1,4 +1,4 @@
-package com.kiprogram.kigame.activity;
+package com.will.pochi.activity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -22,17 +22,17 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import com.kiprogram.kigame.R;
-import com.kiprogram.kigame.character.Egg;
-import com.kiprogram.kigame.character.Monster;
-import com.kiprogram.kigame.character.Monster2;
-import com.kiprogram.kigame.character.Monster3;
-import com.kiprogram.kigame.flagment.KiDialogFragment;
-import com.kiprogram.kigame.item.Meat;
-import com.kiprogram.kigame.item.Run;
-import com.kiprogram.kigame.sp.KiSharedPreferences;
-import com.kiprogram.kigame.sp.KiSpKey;
-import com.kiprogram.kigame.util.KiUtil;
+import com.will.pochi.R;
+import com.will.pochi.character.Egg;
+import com.will.pochi.character.Monster;
+import com.will.pochi.character.Monster2;
+import com.will.pochi.character.Monster3;
+import com.will.pochi.flagment.KiDialogFragment;
+import com.will.pochi.item.Meat;
+import com.will.pochi.item.Run;
+import com.will.pochi.sp.KiSharedPreferences;
+import com.will.pochi.sp.KiSpKey;
+import com.will.pochi.util.KiUtil;
 
 import java.util.Timer;
 import java.util.TimerTask;

@@ -1,6 +1,6 @@
-package com.kiprogram.kigame.item;
+package com.will.pochi.item;
 
-import com.kiprogram.kigame.R;
+import com.will.pochi.R;
 
 public class Meat extends Meal {
     private static final int IMAGE_ID = R.drawable.meat_01;

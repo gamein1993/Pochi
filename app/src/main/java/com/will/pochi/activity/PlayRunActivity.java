@@ -1,4 +1,4 @@
-package com.kiprogram.kigame.activity;
+package com.will.pochi.activity;
 
 import android.content.res.Configuration;
 import android.content.res.Resources;
@@ -16,7 +16,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.kiprogram.kigame.R;
+import com.will.pochi.R;
 
 public class PlayRunActivity extends AppCompatActivity {
     public class EXTRA_FIELD {

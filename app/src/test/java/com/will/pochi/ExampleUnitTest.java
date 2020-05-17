@@ -1,4 +1,4 @@
-package com.kiprogram.kigame;
+package com.will.pochi;
 
 import org.junit.Test;
 

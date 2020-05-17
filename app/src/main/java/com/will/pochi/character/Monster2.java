@@ -1,6 +1,6 @@
-package com.kiprogram.kigame.character;
+package com.will.pochi.character;
 
-import com.kiprogram.kigame.R;
+import com.will.pochi.R;
 
 public class Monster2 extends Monster {
     public Monster2() {

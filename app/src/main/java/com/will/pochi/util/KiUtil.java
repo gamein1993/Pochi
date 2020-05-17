@@ -1,4 +1,4 @@
-package com.kiprogram.kigame.util;
+package com.will.pochi.util;
 
 import android.content.Context;
 import android.content.res.Resources;

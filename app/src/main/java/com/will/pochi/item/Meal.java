@@ -1,4 +1,4 @@
-package com.kiprogram.kigame.item;
+package com.will.pochi.item;
 
 public abstract class Meal {
     private final int imageId;
